@@ -1,7 +1,7 @@
 import base58
 
 from typing import Any
-from _sha256 import sha256
+from hashlib import sha256
 from trx_utils.hexadecimal import (
     is_hex,
     remove_0x_prefix
